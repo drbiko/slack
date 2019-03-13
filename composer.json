@@ -1,7 +1,7 @@
 {
-    "name": "alek13/slack",
-    "description": "A simple PHP package (fork of maknz/slack) for sending messages to Slack, with a focus on ease of use and elegant syntax.",
-    "keywords": ["laravel", "slack"],
+    "name": "drbiko/slack",
+    "description": "A simple PHP package (fork of php-slack/slack) for sending messages to Slack, with a focus on ease of use and elegant syntax.",
+    "keywords": ["laravel", "slim", "slack"],
     "license": "BSD-2-Clause",
     "authors": [
         {
@@ -11,10 +11,14 @@
         {
             "name": "Alexander Chibrikin",
             "email": "alek13.me@gmail.com"
+        },
+        {
+            "name": "Biko Allen",
+            "email": "biko@docresponse.com"
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.0",
         "guzzlehttp/guzzle": "~6.0|~5.0|~4.0",
         "ext-mbstring": "*",
         "ext-json": "*"
